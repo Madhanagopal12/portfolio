@@ -253,7 +253,7 @@ const experienceData = [
     company: "CognitionX Logic Pvt Ltd",
     role: "Software Trainee",
     icon: dev,
-    period: "Jan 2026 - Present",
+    period: "Jan 2026 - Mar 2026",
     description: [
       "Designed and implemented a universal update mechanism to handle shared state updates across       modules, eliminating repetitive conditional logic.",
       " Reduced code duplication by ~40–50% by abstracting common update patterns into reusable functions.",

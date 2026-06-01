@@ -22,6 +22,8 @@ import nextjs from "../assets/Skills/Nextjs.svg";
 import frappe from "../assets/Skills/Frappe.png";
 import tailwindcss from "../assets/Skills/tailwindcss.png";
 import typescript from "../assets/Skills/typescript.png";
+import cpp from "../assets/Skills/C++.png";
+import vsstudio from "../assets/Skills/visual_studio.png";
 import TypewriterText from "../Components/TypewriterText";
 
 const Skills = () => {
@@ -171,14 +173,15 @@ const skillData = [
   { icon: bootstrap, name: "Bootstrap" },
   { icon: tailwindcss, name: "Tailwindcss" },
   { icon: chakraUi, name: "Chakra UI" },
-  // { icon: nodejs, name: "Node.js" },
-  // { icon: express, name: "Express.js" },
+  { icon: nodejs, name: "Node.js" },
+  { icon: express, name: "Express.js" },
   { icon: python, name: "Python" },
-  // { icon: mongo, name: "MongoDB" },
+  { icon: mongo, name: "MongoDB" },
   { icon: mysql, name: "MySQL" },
   { icon: git, name: "Git" },
   { icon: github, name: "Github" },
   { icon: vscode, name: "VSCode" },
   { icon: nextjs, name: "Next.js" },
-  { icon: frappe, name: "Frappe" },
+  { icon: cpp, name: "C++" },
+  { icon: vsstudio, name: "Viusal Studio" },
 ];
