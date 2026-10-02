@@ -9,6 +9,7 @@ import theFastReactPizza from "../../assets/Projects/fast-react-pizza.png";
 import eventLoopJs from "../../assets/Projects/event-loop-js.png";
 import kanbanFlow from "../../assets/Projects/kanban-flow.png";
 import qnahub from "../../assets/Projects/qnahub.jpg";
+import formbuilder from "../../assets/Projects/formbuilder.jpg";
 
 const Project = () => {
   const text = "P r o j e c t s ".split(" ");
@@ -89,6 +90,17 @@ const Project = () => {
         />
         <ProjectCard
           onClick={() =>
+            window.open("https://form-builder-eight-phi.vercel.app/", "_blank")
+          }
+          title={"Form Builder"}
+          description={
+            "Form Builder is a modern web application that allows users to create, customize, and manage dynamic forms with ease. We can track the number of form submissions done in over a period of time. Create the form and publish it to share with the users."
+          }
+          image={formbuilder}
+          stack={["Next.js", "Typescript", "Tailwind CSS", "Prisma", "Clerk"]}
+        />
+        {/* <ProjectCard
+          onClick={() =>
             window.open("https://js-event-loop-madan.netlify.app/", "_blank")
           }
           title={"Event Loop Visualizer"}
@@ -97,7 +109,7 @@ const Project = () => {
           }
           image={eventLoopJs}
           stack={["Html", "CSS", "JS"]}
-        />
+        /> */}
 
         <ProjectCard
           onClick={() =>

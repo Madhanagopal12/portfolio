@@ -177,6 +177,7 @@ const skillData = [
   { icon: chakraUi, name: "Chakra UI" },
   { icon: nodejs, name: "Node.js" },
   { icon: express, name: "Express.js" },
+  { icon: frappe, name: "Frappe" },
   { icon: python, name: "Python" },
   { icon: mongo, name: "MongoDB" },
   { icon: prisma, name: "Prisma" },
