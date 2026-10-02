@@ -88,9 +88,9 @@ const Home = () => {
             lineHeight={1.5}
             w={{ xl: "80%", md: "90%" }}
           >
-            I build modern, responsive websites and mobile apps that deliver
-            seamless user experiences. With a passion for clean code and
-            innovative solutions, I turn ideas into reality.
+            I build modern, responsive websites that deliver seamless user
+            experiences. With a passion for clean code and innovative solutions,
+            I turn ideas into reality.
           </Text>
         </motion.div>
         {/* Button */}
