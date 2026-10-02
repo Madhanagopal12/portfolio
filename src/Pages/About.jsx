@@ -85,54 +85,56 @@ const About = () => {
             zIndex={100}
             m={"auto"}
           >
-            <Code bg={"none"} color={"#33FFCC"}>
-              {"<!--"}
+            <Code bg="none" color="#33FFCC">
+              Hello! 👋
             </Code>
-            <Flex flexDir={"column"} px={2} gap={2}>
-              <Code bg={"none"} color={"#33FFCC"} fontSize={20}>
-                Hello!..
-              </Code>
-              <Code bg={"none"} color={"white"}>
-                Hi, I&apos;m Madana Gopal, a passionate Software Developer with
-                over a 6 months of experience specializing in the
-                <span style={{ color: "#33FFCC" }}> Frontend Development</span>.
-                I have hands-on experience with{" "}
-                <span style={{ color: "#33FFCC" }}>
-                  HTML, CSS, JavaScript, React, and Frappe{" "}
-                </span>
-                , and I am also familiar with{" "}
-                <span style={{ color: "#33FFCC" }}>backend</span> development
-                using the{" "}
-                <span style={{ color: "#33FFCC" }}>Frappe Framework</span>.
-              </Code>
-              <Code bg={"none"} color={"white"}>
-                I enjoy solving complex problems and building responsive,
-                user-friendly web applications. I particularly like
-                <span style={{ color: "#33FFCC" }}> debugging issues </span> and
-                <span style={{ color: "#33FFCC" }}>
-                  {" "}
-                  improving code quality
-                </span>{" "}
-                to create efficient and maintainable solutions.
-              </Code>
-              <Code bg={"none"} color={"white"}>
+
+            <Code bg="none" color="white">
+              Hi, I'm <span style={{ color: "#33FFCC" }}>Madana Gopal</span>, a
+              passionate
+              <span style={{ color: "#33FFCC" }}> Frontend Developer </span>
+              who enjoys building fast, scalable, and user-friendly web
+              applications. I specialize in developing modern React applications
+              and have hands-on experience delivering production-ready features
+              for real-world projects.
+            </Code>
+
+            <Code bg="none" color="white">
+              My primary expertise includes
+              <span style={{ color: "#33FFCC" }}>
                 {" "}
-                I&apos;m always eager to{" "}
-                <span style={{ color: "#33FFCC" }}>
-                  learn new technologies
-                </span>{" "}
-                and improve my skills as a developer. My goal is to contribute
-                to impactful projects while continuously growing in the field of
-                software development.
-              </Code>
-              <Code bg={"none"} color={"white"}>
+                React, Next.js, JavaScript, TypeScript, TanStack Query, React
+                Router, Tailwind CSS, and RESTful APIs
+              </span>
+              . I also work with
+              <span style={{ color: "#33FFCC" }}>
                 {" "}
-                Outside of coding, I enjoy watching movies and playing games,
-                which help me to relax and stay creative.
-              </Code>
-            </Flex>
-            <Code bg={"none"} color={"#33FFCC"}>
-              {"--!>"}
+                Node.js, Express, MySQL, and Supabase
+              </span>
+              , allowing me to understand the complete application workflow from
+              frontend to backend.
+            </Code>
+
+            <Code bg="none" color="white">
+              Recently, I've been building
+              <span style={{ color: "#33FFCC" }}> qnaHub</span>, a full-stack
+              certification exam platform featuring secure authentication,
+              AI-powered question generation using Google Gemini, role-based
+              dashboards, server-state management with TanStack Query, and
+              production deployment on Hostinger.
+            </Code>
+
+            <Code bg="none" color="white">
+              I enjoy solving challenging problems, debugging complex issues,
+              optimizing application performance, and writing clean,
+              maintainable, and scalable code that delivers a great user
+              experience.
+            </Code>
+
+            <Code bg="none" color="white">
+              I'm always exploring modern frontend technologies and best
+              practices to build better software while continuously growing as a
+              developer.
             </Code>
           </Flex>
         </motion.div>

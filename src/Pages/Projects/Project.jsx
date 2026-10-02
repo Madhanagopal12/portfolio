@@ -8,6 +8,7 @@ import theWildOasisNextjs from "../../assets/Projects/the-wild-oasis-nextjs.png"
 import theFastReactPizza from "../../assets/Projects/fast-react-pizza.png";
 import eventLoopJs from "../../assets/Projects/event-loop-js.png";
 import kanbanFlow from "../../assets/Projects/kanban-flow.png";
+import qnahub from "../../assets/Projects/qnahub.jpg";
 
 const Project = () => {
   const text = "P r o j e c t s ".split(" ");
@@ -48,6 +49,24 @@ const Project = () => {
         }}
         gap={{ xl: 10, lg: 16, md: 10, base: 5 }}
       >
+        <ProjectCard
+          onClick={() => window.open("https://qnahub.in/", "_blank")}
+          title={"qnahub"}
+          description={
+            "A full-stack certification exam platform that enables users to practice exams, prepare for interviews, track performance, and generate AI-powered questions through a secure, role-based learning experience."
+          }
+          image={qnahub}
+          stack={[
+            "React",
+            "TanStack Query",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MySQL",
+            "JWT",
+            "Google Gemini",
+          ]}
+        />
         <ProjectCard
           onClick={() =>
             window.open(

@@ -250,6 +250,19 @@ export default Experience;
 
 const experienceData = [
   {
+    company: "Ryde Consulting",
+    role: "Frontend Developer",
+    icon: dev,
+    period: "Apr 2026 - Present",
+    description: [
+      "Developing frontend modules for qnaHub, a full-stack certification exam platform built with React, Node.js, and MySQL.",
+      "Implemented server-state management using TanStack Query, improving data consistency through caching and query invalidation.",
+      "Built secure authentication flows including user registration with OTP verification, login, password reset, and role-based route protection using JWT and HTTP-only cookies.",
+      "Integrated RESTful APIs for CSV question import and AI-powered question generation using Google Gemini.",
+      "Deployed and maintained the React frontend and Node.js backend on Hostinger, configuring environment variables, MySQL, CORS, and secure cookie-based authentication.",
+    ],
+  },
+  {
     company: "CognitionX Logic Pvt Ltd",
     role: "Software Trainee",
     icon: dev,

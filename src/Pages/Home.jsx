@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import homeRightImage from "../assets/homerightimage.png";
 import Titlename from "../Components/TitleName/Titlename";
 import { motion } from "framer-motion";
-import resume from "../assets/MadanaGopal_Resume.pdf";
+import resume from "../assets/MadanaGopal_M_Resume.pdf";
 
 const Home = () => {
   const handleDownload = () => {

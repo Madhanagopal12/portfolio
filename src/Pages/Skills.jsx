@@ -16,6 +16,7 @@ import react from "../assets/Skills/React.png";
 import solidity from "../assets/Skills/Solidity.png";
 import vscode from "../assets/Skills/vsCode.png";
 import mongo from "../assets/Skills/MongoDB.png";
+import supabase from "../assets/Skills/Supabase.svg";
 import mysql from "../assets/Skills/MySQL.png";
 import { motion } from "framer-motion";
 import nextjs from "../assets/Skills/Nextjs.svg";
@@ -24,6 +25,7 @@ import tailwindcss from "../assets/Skills/tailwindcss.png";
 import typescript from "../assets/Skills/typescript.png";
 import cpp from "../assets/Skills/C++.png";
 import vsstudio from "../assets/Skills/visual_studio.png";
+import prisma from "../assets/Skills/Prisma.svg";
 import TypewriterText from "../Components/TypewriterText";
 
 const Skills = () => {
@@ -177,6 +179,8 @@ const skillData = [
   { icon: express, name: "Express.js" },
   { icon: python, name: "Python" },
   { icon: mongo, name: "MongoDB" },
+  { icon: prisma, name: "Prisma" },
+  { icon: supabase, name: "Supabase" },
   { icon: mysql, name: "MySQL" },
   { icon: git, name: "Git" },
   { icon: github, name: "Github" },
